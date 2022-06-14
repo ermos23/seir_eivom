@@ -7,7 +7,7 @@ import android.widget.RatingBar;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.seir_eivom.R;
+import com.example.seireivom.R;
 
 public class Popular_view_holder  extends RecyclerView.ViewHolder implements View.OnClickListener {
 

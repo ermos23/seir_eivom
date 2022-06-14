@@ -29,6 +29,15 @@
             </intent-filter>
         </activity>
 
+        <activity android:exported="false"
+            android:name=".activities.SearchActivity">
+
+        </activity>
+
+        <activity android:exported="false" android:name=".activities.WatchlistActivity">
+
+        </activity>
+
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
                 "keyboard|keyboardHidden|screenLayout|screenSize|orientation" />

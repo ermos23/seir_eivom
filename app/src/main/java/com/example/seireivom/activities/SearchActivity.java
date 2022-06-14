@@ -15,12 +15,12 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.seir_eivom.MovieDetails;
-import com.example.seir_eivom.R;
-import com.example.seir_eivom.adapters.MovieRecyclerView;
-import com.example.seir_eivom.adapters.OnMovieListener;
-import com.example.seir_eivom.models.MovieModel;
-import com.example.seir_eivom.ui.dashboard.SearchViewModel;
+import com.example.seireivom.MovieDetails;
+import com.example.seireivom.R;
+import com.example.seireivom.adapters.MovieRecyclerView;
+import com.example.seireivom.adapters.OnMovieListener;
+import com.example.seireivom.model.MovieModel;
+import com.example.seireivom.model.SearchViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.List;

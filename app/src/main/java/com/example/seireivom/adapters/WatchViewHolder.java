@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.seir_eivom.R;
+import com.example.seireivom.R;
 
 public class WatchViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 

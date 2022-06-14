@@ -1,6 +1,6 @@
 package com.example.seireivom.response;
 
-import com.example.seir_eivom.models.MovieModel;
+import com.example.seireivom.model.MovieModel;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

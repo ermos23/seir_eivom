@@ -10,4 +10,6 @@
     <string name="facebook_client_token">ca3221a8c1f266100d992ad4a4e8485e</string>
     <string name="add_to_watchlist">Add to watchlist</string>
     <string name="already">Already on watchlist</string>
+    <string name="hello_first_fragment">re</string>
+    <string name="action_settings">settings</string>
 </resources>

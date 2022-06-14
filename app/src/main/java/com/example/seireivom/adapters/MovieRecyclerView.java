@@ -8,11 +8,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.seir_eivom.R;
-import com.example.seir_eivom.models.MovieModel;
-import com.example.seir_eivom.activities.SearchActivity;
-import com.example.seir_eivom.activities.WatchlistActivity;
-import com.example.seir_eivom.utils.Credentials;
+import com.example.seireivom.R;
+import com.example.seireivom.model.MovieModel;
+import com.example.seireivom.activities.SearchActivity;
+import com.example.seireivom.activities.WatchlistActivity;
+import com.example.seireivom.util.Credentials;
 
 import java.util.List;
 

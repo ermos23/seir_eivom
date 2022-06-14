@@ -13,12 +13,12 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.seir_eivom.MovieDetails;
-import com.example.seir_eivom.R;
-import com.example.seir_eivom.adapters.MovieRecyclerView;
-import com.example.seir_eivom.adapters.OnMovieListener;
-import com.example.seir_eivom.models.MovieModel;
-import com.example.seir_eivom.ui.notifications.WatchlistViewModel;
+import com.example.seireivom.MovieDetails;
+import com.example.seireivom.R;
+import com.example.seireivom.adapters.MovieRecyclerView;
+import com.example.seireivom.adapters.OnMovieListener;
+import com.example.seireivom.model.MovieModel;
+import com.example.seireivom.model.WatchlistViewModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
