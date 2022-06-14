@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "52229749779",
+    "firebase_url": "https://seir-eivom-6afba-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "seir-eivom-6afba",
+    "storage_bucket": "seir-eivom-6afba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52229749779:android:13fb45ea2ab97382d193e6",
+        "android_client_info": {
+          "package_name": "com.example.seir_eivom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52229749779-rqdv73dkn9lr70t2m95slh6g8itr3d8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIuQyAKvaMPPFN8N2VQb4EmSqRnE6JYQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52229749779-rqdv73dkn9lr70t2m95slh6g8itr3d8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
