@@ -80,35 +80,7 @@ public class WatchlistActivity extends AppCompatActivity implements OnMovieListe
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         NavHostFragment finalHost = NavHostFragment.create(R.navigation.mobile_navigation);
 
-        // Set Home selected
-        bottomNavigationView.setSelectedItemId(R.id.navigation_home);
-        // Perform item selected listener
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-                switch (item.getItemId()) {
-                    case R.id.navigation_dashboard:
-                        // binding.recyclerViewMovies.setAlpha(0);
-                        startActivity(new Intent(getApplicationContext(), SearchActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
-                    case R.id.navigation_home:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        overridePendingTransition(0, 0);
-                        //binding.recyclerViewMovies.setAlpha(1);
-                        return true;
-                    case R.id.navigation_notifications:
-                        //binding.recyclerViewMovies.setAlpha(0);
-                        getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.bottomNavigationView, finalHost)
-                                .setPrimaryNavigationFragment(finalHost) // equivalent to app:defaultNavHost="true"
-                                .commit();
-                        return true;
-                }
-                return false;
-            }
-        });
 
     }
     private void ObserveWatchlist(){
