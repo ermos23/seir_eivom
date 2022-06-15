@@ -10,8 +10,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.seireivom.R;
 import com.example.seireivom.model.MovieModel;
-import com.example.seireivom.activities.SearchActivity;
-import com.example.seireivom.activities.WatchlistActivity;
 import com.example.seireivom.util.Credentials;
 
 import java.util.List;
@@ -27,13 +25,10 @@ public class MovieRecyclerView extends RecyclerView.Adapter<RecyclerView.ViewHol
     private static final int DISPLAY_WATCHLIST = 3;
 
 
-    public MovieRecyclerView(SearchActivity onMovieListener) {
-        this.onMovieListener = onMovieListener;
+    public MovieRecyclerView() {
+
     }
 
-    public MovieRecyclerView(WatchlistActivity onMovieListener) {
-        this.onMovieListener = onMovieListener;
-    }
 
     @NonNull
     @Override
